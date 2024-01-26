@@ -95,6 +95,7 @@ open class DefaultFileGenerator(val project: Project) : FileGenerator {
                 R.keys.problemNameVar to problem.name,
                 R.keys.onlineJudgeVar to onlineJudge,
                 R.keys.groupNameVar to (groupName ?: ""),
+                R.keys.urlVar to problem.url,
             )
         )
 

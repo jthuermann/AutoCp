@@ -23,6 +23,7 @@ object AutoCpKeys {
     const val problemNameVar = "PROBLEM_NAME"
     const val groupNameVar = "PROBLEM_GROUP_NAME"
     const val onlineJudgeVar = "ONLINE_JUDGE_NAME"
+    const val urlVar = "PROBLEM_URL"
 
     // File template keys
     const val fileTemplateName = "CP_TEMPLATE"
